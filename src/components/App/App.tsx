@@ -5,8 +5,8 @@ import SearchResultDetails from '../SearchResultDetails/SearchResultDetails';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-     <SearchResultDetails/>
+      <div className="container-fluid">
+        <SearchResultDetails/>
       </div>
     );
   }
