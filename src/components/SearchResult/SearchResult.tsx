@@ -11,7 +11,7 @@ class SearchResult extends Component <SearchResultProps> {
 
         return (
             <div className="SearchResult" style={ { width: "600px", marginTop:"40px" }}>
-                { this.props.customerList.map(value => <div><SearchResultDetails key={value.company} customer={value}/><hr /></div>) }
+                { this.props.customerList.map(value => <div key={value.company} ><SearchResultDetails customer={value}/><hr /></div>) }
             </div>
         );
     }

@@ -4,6 +4,6 @@ import SearchForm from './SearchForm';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<SearchForm />, div);
+  ReactDOM.render(<SearchForm handleSearchTextChanged={ (text) => {} } />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
