@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <SearchResultDetails customer={new Customer("Netzalist", "Altmarkt", "9", "98574", "Schmalkalden")}/>
+        <SearchResultDetails customer={new Customer("Netzalist GmbH & Co. KG", "Altmarkt", "9", "98574", "Schmalkalden")}/>
       </div>
     );
   }
