@@ -10,8 +10,8 @@ class SearchResult extends Component <SearchResultProps> {
     render() {
 
         return (
-            <div className="SearchResult">
-                { this.props.customerList.map(value => <SearchResultDetails key={value.company} customer={value}/>) }
+            <div className="SearchResult" style={ { width: "600px", marginTop:"40px" }}>
+                { this.props.customerList.map(value => <div><SearchResultDetails key={value.company} customer={value}/><hr /></div>) }
             </div>
         );
     }
